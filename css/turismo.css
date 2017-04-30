@@ -1,3 +1,7 @@
+body
+{
+    background-image: url(../media/img/fondo.jpg);
+}
 .logo
 {
   width: 100px;
@@ -30,4 +34,17 @@
 .chip
 {
     margin-top: 7px;
+}
+.enviar
+{
+    float: right;
+}
+.autor
+{
+    text-align: center;
+}
+.autor-foto
+{
+    border-radius: 100%;
+    width: 100%;
 }
