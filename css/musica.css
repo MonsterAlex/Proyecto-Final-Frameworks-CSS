@@ -1,0 +1,40 @@
+body
+{
+    background-color: crimson;
+}
+.logo
+{
+    width: 30%;
+}
+.redes_sociales
+{
+    width: 48px;
+    margin-top: 10rem;
+    float: right;
+}
+.titulo
+{
+    float: right;
+    margin-right: 16rem;
+    margin-top: 5rem;
+}
+ul
+{
+    background: coral;
+}
+.active
+{
+    background-color: darksalmon;
+}
+li:hover, a:hover
+{
+    background-color: burlywood;
+}
+.navbar
+{
+    margin-bottom: 0px;
+}
+header
+{
+    background-color: white;
+}
