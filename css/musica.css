@@ -12,6 +12,10 @@ body
     margin-top: 10rem;
     float: right;
 }
+.Banda
+{
+    width: 100%;
+}
 .titulo
 {
     float: right;
@@ -34,7 +38,20 @@ li:hover, a:hover
 {
     margin-bottom: 0px;
 }
-header
+header, .contenido
 {
     background-color: white;
+}
+.nav-pills, .nav-stacked
+{
+    background-color: white;
+    
+}
+.bad
+{
+  border-bottom: 1px solid gray;  
+}
+.cont2
+{
+    margin-top: -200px;
 }
