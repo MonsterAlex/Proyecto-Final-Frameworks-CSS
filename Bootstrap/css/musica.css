@@ -51,7 +51,19 @@ header, .contenido
 {
   border-bottom: 1px solid gray;  
 }
-.cont2
+.cont1
 {
-    margin-top: -200px;
+    margin-bottom: 50px;
+}
+.user
+{
+    padding-left: 19px;
+}
+.comentario
+{
+    margin-left: 22px;
+}
+.usuario
+{
+    font-size: 4em;
 }
