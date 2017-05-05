@@ -2,11 +2,36 @@
 {
   border: 1px solid black;
 }
-.row
+.menu-y-blog
+{
+    border: 1px solid green;
+}
+.col1
+{
+    border: 1px solid violet;
+}
+.nombre-slogan
 {
     border: 1px solid red;
 }
-.row1
+
+/* Codigo de los CSS*/
+.gastro-cuerpo
 {
-    border: 1px solid green;
+    background: url(../../media/img/Gastronom%C3%ADa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nombre-slogan, .menu-y-blog
+{
+    background-color: rgb(132,195,190,0.3);
+}
+.comida-favorita
+{
+    width: 100%;
+}
+li
+{
+    border: 1px solid pink;
+    text-align: center;
 }

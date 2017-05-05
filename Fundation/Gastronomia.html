@@ -6,52 +6,84 @@
         <title>Blog de Gastronomia</title>
         <link rel="stylesheet" href="css/foundation.min.css">
         <link rel="stylesheet" href="css/gastronomia.css">
+        <link rel="stylesheet" href="css/general_foundicons.css">
+        <link rel="stylesheet" href="css/general_foundicons_ie7.css">
+
     </head>
     
-    <body>
+    <body class="gastro-cuerpo">
         <script src="js/vendor/foundation.js"></script>
         <script src="js/vendor/jquery.js"></script>
         <script src="js/vendor/what-input.js"></script>
         <script src="js/app.js"></script>
         
 <!-- Nombre del Blog y Slogan -->
-        <div class="row">
+        <div class="row nombre-slogan">
             <div class="large-5 column">
                 <div class="row">
-                    <div class="large-12 column">Nombre Del Blog</div>
+                    <div class="large-12 column">
+                        <h1>Comida Para La Vida</h1>
+                    </div>
                 </div>
                 
                 <div class="row">
-                    <div class="large-12 column">Slogan</div>
+                    <div class="large-12 align-right column">
+                        <h5>La Comida de los dioses hecha por humanos</h5>
+                    </div>
                 </div>
             </div>
         </div>
+        
 <!-- Menu Izquiedo del Blog -->        
-        <div class="row row1">
+        <div class="row row1 menu-y-blog">
             <div class="large-5 column">
                 <div class="row">
                    <!-- Buscador -->
                     <div class="large-12 column">
-                        buscador
+                        <form>
+                            <div class="large-8 float-rigth columns">
+                                <input type="text" placeholder="Buscar...">
+                            </div>
+                            <!--Boton de Busqueda-->
+                            <div class="large-2 float-left columns">
+                                <a href="#" class="button"><i class="search"></i></a>
+                            </div>
+                        </form>
                     </div>
                     <!--  Menu de navegacion -->
                     <div class="large-12 column">
-                        Menu
+                        <ul class="side-nav">
+                            <li class="active"><a href="#">Inicio</a></li>
+                            <li><a href="#">Mi Plato Perfecto</a></li>
+                            <li><a href="#">Mis Recetas</a></li>
+                        </ul>
                     </div>
                     
                     <!-- Fotos -->
                     <div class="large-12 column">
                        Favoritos:
                         <div class="row">
-                            <div class="large-4 column">1</div>
-                            <div class="large-4 column">2</div>
-                            <div class="large-4 column">3</div>
+                            <div class="large-4 column">
+                                <img src="../media/img/cominda1.jpg" alt="Tacos" class="comida-favorita">
+                            </div>
+                            <div class="large-4 column">
+                                <img src="../media/img/comida2.jpg" alt="Hamburgesas" class="comida-favorita">
+                            </div>
+                            <div class="large-4 column">
+                                <img src="../media/img/comida3.jpg" alt="Salsa Mexicana" class="comida-favorita">
+                            </div>
                         </div>
                         
                         <div class="row">
-                            <div class="large-4 column">4</div>
-                            <div class="large-4 column">5</div>
-                            <div class="large-4 column">6</div>
+                            <div class="large-4 column" class="comida-favorita">
+                                <img src="../media/img/comida4.jpg" alt="Postre" class="comida-favorita">
+                            </div>
+                            <div class="large-4 column" class="comida-favorita">
+                                <img src="../media/img/comida5.jpg" alt="Espageti con Camaron" class="comida-favorita">
+                            </div>
+                            <div class="large-4 column" class="comida-favorita">
+                                <img src="../media/img/comida6.jpg" alt="Pizza" class="comida-favorita">
+                            </div>
                         </div>
                     </div>
                     
@@ -60,6 +92,21 @@
                         Historial:
                     </div>
                 </div>
+            </div>
+            
+            <div class="large-7 column col1">
+               <div class="row">
+                   titulo
+                   fecha
+                   imagen
+                   texto comentario
+               </div>
+               <div class="row">
+                   titulo
+                   fecha
+                   imagen
+                   texto comentario
+               </div>
             </div>
         </div>
     </body>
