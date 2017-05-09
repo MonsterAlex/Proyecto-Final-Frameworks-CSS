@@ -1,21 +1,20 @@
-.column
-{
-  border: 1px solid black;
-}
-.menu-y-blog
-{
-    border: 1px solid green;
-}
-.col1
-{
-    border: 1px solid violet;
-}
-.nombre-slogan
-{
-    border: 1px solid red;
-}
-
 /* Codigo de los CSS*/
+.menu-izq
+{
+    background-color: rgb(174,218,229,0.7);
+}
+.buscador
+{
+    margin-top: 20px;
+}
+.texto
+{
+    color: deeppink;
+}
+.texto1
+{
+    color: white;
+}
 .gastro-cuerpo
 {
     background: url(../../media/img/Gastronom%C3%ADa.jpg);
@@ -24,14 +23,38 @@
 }
 .nombre-slogan, .menu-y-blog
 {
-    background-color: rgb(132,195,190,0.3);
+    background-color: rgb(50,50,50,0.3);
+}
+.divisor
+{
+    border-right: 2px solid white;
 }
 .comida-favorita
 {
     width: 100%;
 }
-li
+.opcion-menu
 {
     border: 1px solid pink;
     text-align: center;
+}
+.opcion-menu:hover
+{
+    background-color: antiquewhite;
+}
+.items
+{
+    color: deeppink;
+}
+.list-group-item:hover
+{
+    background-color: antiquewhite;
+}
+.card, .card-divider
+{
+    background-color: rgb(255,208,221);
+}
+.button
+{
+    background-color: hotpink;
 }

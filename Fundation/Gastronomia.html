@@ -19,16 +19,16 @@
         
 <!-- Nombre del Blog y Slogan -->
         <div class="row nombre-slogan">
-            <div class="large-5 column">
+            <div class="large-5 column divisor">
                 <div class="row">
                     <div class="large-12 column">
-                        <h1>Comida Para La Vida</h1>
+                        <h1 class="texto1">Comida Para La Vida</h1>
                     </div>
                 </div>
                 
                 <div class="row">
                     <div class="large-12 align-right column">
-                        <h5>La Comida de los dioses hecha por humanos</h5>
+                        <h5 class="texto1">La Comida de los dioses hecha por humanos</h5>
                     </div>
                 </div>
             </div>
@@ -37,9 +37,9 @@
 <!-- Menu Izquiedo del Blog -->        
         <div class="row row1 menu-y-blog">
             <div class="large-5 column">
-                <div class="row">
+                <div class="row menu-izq">
                    <!-- Buscador -->
-                    <div class="large-12 column">
+                    <div class="large-12 column buscador">
                         <form>
                             <div class="large-8 float-rigth columns">
                                 <input type="text" placeholder="Buscar...">
@@ -53,15 +53,15 @@
                     <!--  Menu de navegacion -->
                     <div class="large-12 column">
                         <ul class="side-nav">
-                            <li class="active"><a href="#">Inicio</a></li>
-                            <li><a href="#">Mi Plato Perfecto</a></li>
-                            <li><a href="#">Mis Recetas</a></li>
+                            <li class="active opcion-menu"><a href="#" class="texto">Inicio</a></li>
+                            <li class="opcion-menu"><a href="#" class="texto">Mi Plato Perfecto</a></li>
+                            <li class="opcion-menu"><a href="#" class="texto">Mis Recetas</a></li>
                         </ul>
                     </div>
                     
                     <!-- Fotos -->
                     <div class="large-12 column">
-                       Favoritos:
+                        <h5 class="texto">Favoritos:</h5>
                         <div class="row">
                             <div class="large-4 column">
                                 <img src="../media/img/cominda1.jpg" alt="Tacos" class="comida-favorita">
@@ -89,23 +89,125 @@
                     
                     <!-- Historial -->
                     <div class="large-12 column">
-                        Historial:
+                        <div class="row">
+                            <h5 class="texto">Historial:</h5>
+                        </div>
+                        <div class="row">
+                            <ul class="list-group">
+                                <li class="list-group-item justify-content-between"><a class="items" href="#">Pizza de Peperoni</a></li>
+                                
+                                <li class="list-group-item justify-content-between"><a class="items" href="#">Sopa de Pasta</a></li>
+  
+                                <li class="list-group-item justify-content-between"><a class="items" href="#">Encacahuatado de pollo</a></li>
+                                
+                                <li class="list-group-item justify-content-between"><a class="items" href="#">Alas de Pollo</a></li>
+                                
+                                <li class="list-group-item justify-content-between"><a class="items" href="#">Costillas Barbiquiu</a></li>
+                                
+                                <li class="list-group-item justify-content-between"><a class="items" href="#">Tacos dorados</a></li>
+                                
+                                <li class="list-group-item justify-content-between"><a class="items" href="#">Burritos</a></li>
+                                
+                                <li class="list-group-item justify-content-between"><a class="items" href="#">Sopa de Verdura</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-            
-            <div class="large-7 column col1">
-               <div class="row">
-                   titulo
-                   fecha
-                   imagen
-                   texto comentario
-               </div>
-               <div class="row">
-                   titulo
-                   fecha
-                   imagen
-                   texto comentario
+<!-- Contenido del blog -->            
+            <div class="large-7 column">
+                <div class="row">
+                   
+                    <div class="large-12 column">
+                        <div class="card" style="width: 660px;">
+                            <div class="card-divider">
+                                <h2>Pizza Hawaiana</h2>
+                                <h6 class="texto">08 de Mayo del 2017</h6>
+                            </div>
+                            
+                            <a class="th" role="button" aria-label="Thumbnail" href="../media/img/pizzas-hawaiana.jpg">
+                                <img aria-hidden=true src="../media/img/pizzas-hawaiana.jpg"/>
+                            </a>
+                            
+                            <div class="card-section">
+                                <p>
+                                    El dia De hoy Preparamos una rica pizza hawaiana que es mi especialidad y de las pizzas que mas me gustan para la preparacion se necesitan de pocos ingredientes y del buen sason para que la pizza sepa de los mas rica ya que todos tenemos una forma de preparar los platillos y que gracias a eso le damos un sabor distinto cada persona
+                                </p>
+                                <br>
+                                <p>
+                                    para la preparacion de esta pizza nesesitaremos:
+                                    <ul>
+                                        <li>1 kilo de harina</li>
+                                        <li>2 cucharadas de levadura</li>
+                                        <li>1/2 taza de aceite</li>
+                                        <li>1 cucharada de azúcar</li>
+                                        <li>1/2 cucharadita de sal</li>
+                                        <li>agua tibia la necesaria</li>
+                                        <li>1 litro de Puré de Tomate</li>
+                                        <li>1 pieza de cebolla mediana finamente picada</li>
+                                        <li>3 cucharadas de aceite</li>
+                                        <li>oréganos</li>
+                                        <li>1 kilo de queso asadero rallado</li>
+                                        <li>jamón en cubos al gusto</li>
+                                        <li>piñas en cuadritos al gusto</li>
+                                        <li>sal</li>
+                                    </ul>
+                                    Para ver como Se prepara esta deliciosa pizza entra al link para continuar degustando y
+                                    <a href="#">Continua Preparando</a>
+                                </p>
+                            </div>
+                            
+                            <div class="card-section">
+                                <label>Dejanos un comentario
+                                    <textarea placeholder="Text Area"></textarea>
+                                </label>
+                                
+                                <button type="button" class="button float-right">Enviar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="large-12 column">
+                        <div class="card" style="width: 660px;">
+                            <div class="card-divider">
+                                <h2>Chuletas de Cerdo con Salsa de Cebolla</h2>
+                                <h6 class="texto">04 de Mayo del 2017</h6>
+                            </div>
+                            
+                            <a class="th" role="button" aria-label="Thumbnail" href="../media/img/chuleta.jpg">
+                                <img aria-hidden=true src="../media/img/chuleta.jpg"/>
+                            </a>
+                            
+                            <div class="card-section">
+                                <p>
+                                    El dia De hoy Preparamos unas ricas Chuletas de Cerdo bañadas en una salsa de cebolla que a mi gusta queda muy rico y de facil preparacion, los amantes de la carne y de los que gustan de salsas esta es una de las mejores opciones para su proximo platillo a preparar
+                                </p>
+                                <br>
+                                <p>
+                                    para la preparacion de esta Receta nesesitaremos:
+                                    <ul>
+                                        <li>500 g de carne de cerdo (chuletas de cabeza de lomo sin hueso)</li>
+                                        <li>1 Cebolla</li>
+                                        <li>100 ml de coñac o vino blando</li>
+                                        <li>1 vaso de agua o caldo Sal</li>
+                                        <li>Pimienta Negra Molida</li>
+                                        <li>Prejil picado para la decoracion</li>
+                                    </ul>
+                                    Para ver como Se prepara este delicioso platillo entra al link para continuar degustando y
+                                    <a href="#">Continua Preparando</a>
+                                </p>
+                            </div>
+                            
+                            <div class="card-section">
+                                <label>Dejanos un comentario
+                                    <textarea placeholder="Text Area"></textarea>
+                                </label>
+                                
+                                <button type="button" class="button float-right">Enviar</button>
+                            </div>
+                    </div>
                </div>
             </div>
         </div>
