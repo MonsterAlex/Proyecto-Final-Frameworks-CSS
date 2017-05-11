@@ -10,6 +10,7 @@
 .texto
 {
     color: deeppink;
+    margin-left: 13px;
 }
 .texto1
 {
@@ -57,4 +58,20 @@
 .button
 {
     background-color: hotpink;
+}
+.list-group, .side-nav
+{
+    list-style:none;
+}
+.fotos_2
+{
+    margin-top: 5px;
+}
+.comentarios
+{
+    border-top: 2px solid white;
+}
+textarea
+{
+    height: 70px;
 }
